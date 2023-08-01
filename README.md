@@ -1,6 +1,6 @@
 # NFTVerse
 
-Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Network using back-end logic in Motoko Smart Contracts. Developed a NFT marketplace using React and Motoko where users can discover NFT collections, buy from it, mint NFTs and list their NFTs for sell. Integrated the CSP token wallet as a payment method for the transactions.
+Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Network using back-end logic in Motoko Smart Contracts. Developed a NFT marketplace using React and Motoko where users can discover NFT collections, buy from it, mint NFTs and list their NFTs for sale. Integrated the CSP token wallet as a payment method for the transactions.
 
 # Features
 
