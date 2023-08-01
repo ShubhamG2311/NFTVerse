@@ -178,6 +178,8 @@ body {
 .bottom-space {
   margin-top: -7vh;
   margin-bottom: 1vh;
+  height: 625px;
+  width: auto;
 }
 
 .grid-container {
@@ -1326,3 +1328,5 @@ label[data-shrink="false"]
     transform: translate(24px, 0);
   }
 }
+
+

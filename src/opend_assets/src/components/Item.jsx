@@ -52,7 +52,7 @@ function Item(props) {
       const nftIsListed = await opend.isListed(props.id);
 
       if (nftIsListed) {
-        setOwner("OpenD");
+        setOwner("NFTVerse");
         setBlur({ filter: "blur(4px)" });
         setSellStatus("Listed");
       } else {
@@ -102,7 +102,7 @@ function Item(props) {
         setLoaderHidden(true);
         setButton();
         setPriceInput();
-        setOwner("OpenD");
+        setOwner("NFTVerse");
         setSellStatus("Listed");
       }
     }
@@ -113,7 +113,7 @@ function Item(props) {
     setLoaderHidden(false);
     const tokenActor = await Actor.createActor(tokenIdlFactory, {
       agent,
-      canisterId: Principal.fromText("<REPLACE WITH YOUR TOKEN CANISTER ID>"),
+      canisterId: Principal.fromText("q3fc5-haaaa-aaaaa-aaahq-cai"),
     });
 
     const sellerId = await opend.getOriginalOwner(props.id);
