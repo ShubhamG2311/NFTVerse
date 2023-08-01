@@ -24,7 +24,7 @@ Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Ne
 1. CSP Token Wallet
 
 <img 
-    src="screenshots/dctwallet.png" 
+    src="Screenshots/CSPWallet.png" 
     width="75%" 
     height="100%"
 />
@@ -32,7 +32,7 @@ Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Ne
 2. Homepage
 
 <img 
-    src="screenshots/home-page.png" 
+    src="Screenshots/Homepage.png" 
     width="75%" 
     height="100%"
 />
@@ -40,13 +40,13 @@ Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Ne
 3. Minting NFT
 
 <img 
-    src="screenshots/mintloader.png" 
+    src="Screenshots/Minting" 
     width="75%" 
     height="100%"
 />
 
 <img 
-    src="screenshots/mintsuccess.png" 
+    src="Screenshots/Minted.png" 
     width="75%" 
     height="100%"
 />
@@ -54,7 +54,7 @@ Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Ne
 4. Discover 
 
 <img 
-    src="screenshots/discoversection.png" 
+    src="Screenshots/Discover.png" 
     width="75%" 
     height="100%"
 />
@@ -62,39 +62,23 @@ Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Ne
 5. My collection
 
 <img 
-    src="screenshots/mycollection.png" 
+    src="Screenshots/MyNFTs.png" 
     width="75%" 
     height="100%"
 />
 
-6. Bought NFT from discover transfered to my collection
+6. Setting price for sale
 
 <img 
-    src="screenshots/bought-nft.png" 
+    src="Screenshots/PriceSet.png" 
     width="75%" 
     height="100%"
 />
 
-7. Wallet balance down by 4 DCT for buying NFT
+7. Sale confirmed
 
 <img 
-    src="screenshots/transaction.png" 
-    width="75%" 
-    height="100%"
-/>
-
-8. Setting price for sale
-
-<img 
-    src="screenshots/settingprice.png" 
-    width="75%" 
-    height="100%"
-/>
-
-9. Sale confirmed
-
-<img 
-    src="screenshots/sellconfirm.png" 
+    src="Screenshots/SellConfirm.png" 
     width="75%" 
     height="100%"
 />
@@ -153,17 +137,8 @@ dfx canister id opend
 ```
 dfx canister call <NFT_CANISTER_PRINCIPAL_ID> transferOwnership '(principal "<YOUR_PRINCIPAL_ID>", true)'
 ```
-
-# Conneting to the Token Canister
-
-1. Copy over the token declarations folder
-
-2. Set the token canister id into the <REPLACE WITH TOKEN CANISTER ID>
-
 ```
-const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
-```
-# To make calls to DCT token wallet
+# To make calls to CSP token wallet
 
  1. Update node modules
   
