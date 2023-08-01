@@ -40,7 +40,7 @@ Created a Decentralized Crypto Token ”CSP” from scratch on ICP Blockchain Ne
 3. Minting NFT
 
 <img 
-    src="Screenshots/Minting" 
+    src="Screenshots/Minting.png" 
     width="75%" 
     height="100%"
 />
